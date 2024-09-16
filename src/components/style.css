@@ -1,0 +1,42 @@
+.job-card {
+  margin: 10px;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  & > div{
+    width: 30%;
+  }
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7777775c;
+  border-radius: 4px;
+  height: 55px;
+  padding: 4px;
+}
+
+.MuiFormControl-root{
+  flex-direction: row !important;
+  gap: 4px;
+
+}
+.MuiSlider-root{
+  width: 300px !important;
+}
+
+.MuiPaper-root{
+  max-width: 100% !important;
+}
